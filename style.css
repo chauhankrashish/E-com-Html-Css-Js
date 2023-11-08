@@ -283,3 +283,59 @@ body{
     color: #ef3636     ;
 }
 
+#banner button:hover{
+    background-color: #088178;
+    color: #fff;
+}
+
+/* sm-banner */
+
+#sm-banner{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#sm-banner .banner-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url("img/banner/b17.jpg");
+    min-width: 648px;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+}
+#sm-banner .banner-box2{
+    background-image: url("img/banner/b10.jpg");}
+#sm-banner h4{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+}
+#sm-banner h2{
+    color: #fff;
+    font-size: 28px;
+    font-weight: 800;
+}
+#sm-banner span{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+#sm-banner button{
+    font-size: 13px; 
+    font-weight: 600;
+    padding: 11px 18px;
+    background-color: transparent;
+    border: 1.5px solid #fff;
+    color: #fff;
+    outline: none;
+    transition: 0.3s;
+}
+#sm-banner button:hover{
+    background-color: #088178;
+    color: #fff;
+}
